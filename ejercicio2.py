@@ -8,7 +8,7 @@ pares=[]
 for i in range (len(x)): 
     valor= x[i] % 2
     
-    if (valor==0):
+    if (valor!=0):
         pares.append(i)        
         
 
