@@ -17,7 +17,7 @@ def funcion2():
     return rho * x - y -x*z
 
    
-    for (i=0;i<N;i++){
+    for i in range (10){
 
         k1= funcion(x,y);
     
