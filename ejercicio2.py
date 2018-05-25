@@ -4,7 +4,15 @@
 import numpy as np
 
 x = np.int_(np.random.random(100)*1000)
-print(x)
+pares=[]
+for i in range (len(x)): 
+    valor= x[i] % 2
+    
+    if (valor==0):
+        pares.append(i)        
+        
+
+print(pares)
 
 
 
